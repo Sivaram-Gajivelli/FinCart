@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist/
+/build/
+
+# Vite
+frontend/dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.bak
+*.tmp
+
+# Coverage
+coverage/
+
+# Others
+*.tgz
+
+# Ignore frontend dependencies
+frontend/node_modules/
+
+# Ignore backend dependencies
+backend/node_modules/
